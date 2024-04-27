@@ -1,6 +1,54 @@
-#intro img {
+.gif {
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    margin: 0;
 }
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.scroll-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+    top: -110px;
+}
+
+.section-two {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/*Elza Light
+font-family: "elza", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Elza Light Oblique
+font-family: "elza", sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Elza Regular
+font-family: "elza", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Elza Oblique
+font-family: "elza", sans-serif;
+font-weight: 400;
+font-style: italic; 
+*/
+
