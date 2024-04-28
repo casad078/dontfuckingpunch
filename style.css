@@ -277,14 +277,14 @@ a:hover {
  }
 
  nav button {
-    margin-right: 0px;
+    margin-right: -6px;
  }
 
  .button{
     font-size: 20rem;
     display: flex;
     margin-top: -5px;
-    padding-right: 20px;
+    padding-right: 10%;
 }
 
 nav {
@@ -425,8 +425,8 @@ footer {
 
 a {
     padding-top: 20px;
-    margin-left: 20px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-decoration: none;
     color: black;
 }
