@@ -272,6 +272,10 @@ a:hover {
     height: auto;
  }
 
+ body {
+    overflow-x: hidden;
+ }
+
  nav h3 {
     margin-left: 0px;
  }
