@@ -100,7 +100,6 @@ nav button:hover {
 
 .together {
     display: flex;
-    /* margin-right: -17px; */
     justify-content: center; 
     align-items: center; 
     margin: -17px;
@@ -253,4 +252,183 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.section-threemobile {
+    display: none;
+}
+
+.web3 {
+    display: none;
+}
+
+/* phone size */
+@media (max-width: 800px) { 
+
+ * {
+    border: none;
+    display: block;
+    border: none;
+    height: auto;
+ }
+
+ nav h3 {
+    margin-left: 0px;
+ }
+
+ nav button {
+    margin-right: 0px;
+ }
+
+ .button{
+    font-size: 20rem;
+    display: flex;
+    margin-top: -5px;
+    padding-right: 20px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border:1px solid black;
+}
+
+#gif {
+    width: 100%;
+    margin: auto;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 180px;
+}
+
+.together {
+    display: block;
+    margin: 0px;
+    margin-right: 0;
+}
+
+.section-two, .section-twovideo, .section-three, .section-threeimg, .section-four, .section-fourimg, .section-five, .section-fiveimg {
+    display: block;
+    border: none;
+    height: auto;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section-two p , .section-twovideo p , .section-three p , .section-threeimg p , .section-four p , .section-fourimg p , .section-five p , .section-fiveimg p {
+    display: block;
+    border: none;
+    height: auto;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section-two h1 , .section-twovideo h1 , .section-three h1 , .section-threeimg h1 , .section-four h1 , .section-fourimg h1 , .section-five h1 , .section-fiveimg h1 {
+    display: block;
+    border: none;
+    height: auto;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 50px;
+}
+
+.section-two h2 , .section-twovideo h2 , .section-three h2 , .section-threeimg h2 , .section-four h2 , .section-fourimg h2 , .section-five h2 , .section-fiveimg h2 {
+    display: block;
+    border: none;
+    height: auto;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+img {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 20%;
+}
+
+.section-threeimg, .section-fiveimg {
+    display: none;
+}
+
+.section-fivemobile img {
+    width: 30%;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.section-threemobile {
+    display: block;
+}
+
+.section-threemobile img {
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+}
+
+.web3 {
+    display: block;
+}
+
+.web3 img {
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+
+.links {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
 }
