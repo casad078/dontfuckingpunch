@@ -30,7 +30,7 @@ body {
 }
 
 p {
-    font-size: large;
+    font-size: 97%;
 }
 
 nav {
@@ -263,7 +263,7 @@ a:hover {
 }
 
 /* phone size */
-@media (max-width: 800px) { 
+@media (max-width: 900px) { 
 
  * {
     border: none;
