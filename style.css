@@ -285,7 +285,7 @@ a:hover {
  }
 
  .button{
-    font-size: 20rem;
+    font-size: 5px;
     display: flex;
     margin-top: -5px;
     padding-right: 10%;
@@ -425,10 +425,15 @@ footer {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 12px;
+}
+
+.links p {
+    font-size: 12px;
 }
 
 a {
-    padding-top: 20px;
+    padding-top: 12px;
     margin-left: 5px;
     margin-right: 5px;
     text-decoration: none;
