@@ -35,7 +35,6 @@ p {
 
 nav {
     position: fixed;
-    width: 100%;
     background-color: white;
     display: flex;
     z-index: 1;
@@ -47,7 +46,7 @@ nav {
 }
 
 nav h3 {
-    margin-left: 170px;
+    margin-left: 140px;
 }
 
 nav h3:hover {
@@ -55,7 +54,6 @@ nav h3:hover {
 }
 
 .button{
-    margin-left: 11%;
     margin-top: 18px;
     font-size: 30px;
 }
