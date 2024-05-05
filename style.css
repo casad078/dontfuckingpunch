@@ -40,6 +40,7 @@ nav {
     z-index: 1;
     top: 0;
     left: 0;
+    right: 0;
     padding: 10px;
     border:1px solid black;
     font-size: 20px;
@@ -47,6 +48,7 @@ nav {
 
 nav h3 {
     margin-left: 140px;
+    margin-right: 214px;
 }
 
 nav h3:hover {
@@ -59,7 +61,7 @@ nav h3:hover {
 }
 
 nav button {
-    margin-right: 150px;
+    margin-right: 130px;
     background-color: transparent;
     border: none;
 }
